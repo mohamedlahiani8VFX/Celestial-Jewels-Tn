@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .hero {
+            background-image: url('https://example.com/jewelry.jpg');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .product {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h2 {
+            color: #666;
+        }
+        .product p {
+            color: #999;
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        button {
+            background-color: #e6be8a;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #d4a474;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jewelry Store</h1>
+    </header>
+    <div class="hero">
+        <h2>Discover the Finest Jewelry</h2>
+    </div>
+    <div class="container">
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://example.com/ring.jpg" alt="Ring">
+                <h2>Elegant Gold Ring</h2>
+                <p>$199.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/necklace.jpg" alt="Necklace">
+                <h2>Diamond Necklace</h2>
+                <p>$299.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/earrings.jpg" alt="Earrings">
+                <h2>Silver Earrings</h2>
+                <p>$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Jewelry Store | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
